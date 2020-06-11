@@ -60,9 +60,9 @@ class WargaController extends Controller
         ->addColumn('screening', function($row){
           if ($row->id == $row->created_by) {
             $btn = '<a href="'.route('warga.lapor',$row->id).'" class="btn border-success btn-xs text-success-600 btn-flat btn-icon"><i class="icon-pencil5"></i> Skrining COVID-19</a>';
-            if ($row->age >= 17 && HasilPendataanWarga::where('warga_id',$row->id)->first() == null) {
-              $btn = $btn.'  <a href="'.route('warga.screPsi',$row->id).'" class="btn border-success btn-xs text-success-600 btn-flat btn-icon"><i class="icon-pencil5"></i> Pendataan Dampak Covid-19</a>';
-            }
+            // if ($row->age >= 17 && HasilPendataanWarga::where('warga_id',$row->id)->first() == null) {
+            //   $btn = $btn.'  <a href="'.route('warga.screPsi',$row->id).'" class="btn border-success btn-xs text-success-600 btn-flat btn-icon"><i class="icon-pencil5"></i> Pendataan Dampak Covid-19</a>';
+            // }
           } else {
             $btn = '<a href="'.route('warga.lapor',$row->id).'" class="btn border-success btn-xs text-success-600 btn-flat btn-icon"><i class="icon-pencil5"></i> Skrining COVID-19</a>';
             if ($row->age >= 17 && HasilPendataanWarga::where('warga_id',$row->id)->first() == null) {
@@ -88,9 +88,9 @@ class WargaController extends Controller
     {
       $provinsi = Province::all();
       $warga = Warga::where('no_telepon',$telepon)->first();
-      $kabupaten = Regency::where('name','KABUPATEN GUNUNG KIDUL')->first();
-      $kecamatan = District::where('name','PONJONG')->first();
-      $kelurahan = Village::where('name','BEDOYO')->first();
+      $kabupaten = Regency::where('name','KABUPATEN KULON PROGO')->first();
+      $kecamatan = District::where('name','KOKAP')->first();
+      $kelurahan = Village::where('name','KALIREJO')->first();
       return view('warga.create', compact('warga','provinsi','kabupaten','kecamatan','kelurahan'));
     }
 
@@ -111,9 +111,9 @@ class WargaController extends Controller
             return redirect('/list/'.$warga->no_telepon);
           } else {
             $provinsi = Province::all();
-            $kabupaten = Regency::where('name','KABUPATEN GUNUNG KIDUL')->first();
-            $kecamatan = District::where('name','PONJONG')->first();
-            $kelurahan = Village::where('name','BEDOYO')->first();
+            $kabupaten = Regency::where('name','KABUPATEN KULON PROGO')->first();
+            $kecamatan = District::where('name','KOKAP')->first();
+            $kelurahan = Village::where('name','KALIREJO')->first();
             return redirect()->route('warga.isiData',$warga->no_telepon);
             //return view('warga.isi-data', compact('warga','provinsi','kabupaten','kecamatan','kelurahan'));
           }
@@ -210,9 +210,9 @@ class WargaController extends Controller
     {
       $warga = Warga::where('no_telepon',$telepon)->first();
       $provinsi = Province::all();
-      $kabupaten = Regency::where('name','KABUPATEN GUNUNG KIDUL')->first();
-      $kecamatan = District::where('name','PONJONG')->first();
-      $kelurahan = Village::where('name','BEDOYO')->first();
+      $kabupaten = Regency::where('name','KABUPATEN KULON PROGO')->first();
+      $kecamatan = District::where('name','KOKAP')->first();
+      $kelurahan = Village::where('name','KALIREJO')->first();
       if (!empty($warga->nama)) {
         return redirect('/list/'.$warga->no_telepon);
       } else {
@@ -502,9 +502,9 @@ class WargaController extends Controller
      public function edit($id)
      {
          $provinsi = Province::all();
-         $kabupaten = Regency::where('name','KABUPATEN GUNUNG KIDUL')->first();
-         $kecamatan = District::where('name','PONJONG')->first();
-         $kelurahan = Village::where('name','BEDOYO')->first();
+         $kabupaten = Regency::where('name','KABUPATEN KULON PROGO')->first();
+         $kecamatan = District::where('name','KOKAP')->first();
+         $kelurahan = Village::where('name','KALIREJO')->first();
          $warga = Warga::find($id);
          if ($warga->created_by) {
             $trigTel = Warga::find($warga->created_by)->no_telepon;

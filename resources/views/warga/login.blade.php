@@ -5,8 +5,8 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>BEDOYO SIAGA COVID-19</title>
-	<link rel = "icon" href ="{{asset('images/logo.png')}}" type = "image/x-icon"> 
+	<title>KALIREJO SIAGA COVID-19</title>
+	<link rel = "icon" href ="{{asset('images/kkn-kokap.png')}}" type = "image/x-icon"> 
 
 	<!-- Global stylesheets -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet"
@@ -16,7 +16,7 @@
 	<link href="{{asset('css/core.css')}}" rel="stylesheet" type="text/css">
 	<link href="{{asset('css/components.css')}}" rel="stylesheet" type="text/css">
 	<link href="{{asset('css/colors.min.css')}}" rel="stylesheet" type="text/css">	
-	<!-- <link href="{{asset('css/style.css')}}" rel="stylesheet" type="text/css"> -->
+	<link href="{{asset('css/style.css')}}" rel="stylesheet" type="text/css">
 
 	<!-- <link rel="stylesheet" href="lib/themes/rtl.css"> -->
 	<!-- /global stylesheets -->
@@ -73,69 +73,81 @@
 <body>
 	<!-- Page header -->
 	<div class="page-header page-header-inverse bg-indigo">
-		<!-- Page header content -->
-		<!-- <div class="page-header-content">
-			<div class="page-title">
-				<h4>KKN-PPM UGM 2020 - UNIT BEDOYO</h4>
-			</div>
-		</div> -->
-		<!-- /page header content -->
-
-
 		<!-- Second navbar -->
-		<div class="navbar navbar-inverse navbar-transparent" id="navbar-second" style="background-color:#1a2c43">
-			<ul class="nav navbar-nav visible-xs-block">
+		<div class="navbar navbar-inverse navbar-transparent navbar-hidden" id="navbar-second" style="background-color:#1a2c43">
+			<ul class="nav navbar-nav visible-xs-block ">
 				<li><a class="text-center collapsed" data-toggle="collapse" data-target="#navbar-second-toggle"><i class="icon-paragraph-justify3"></i></a></li>
 			</ul>
 			<div class="navbar-collapse collapse" id="navbar-second-toggle">
 				<ul class="nav navbar-nav navbar-nav-material">
 					<li><a href="{{url('/')}}">Dashboard</a></li>
 					<li><a href="{{url('skrining-mandiri')}}">Skrining Mandiri</a></li>
-					<!-- <li><a data-toggle="modal" data-target="#modal_theme_primary">Skrining Mandiri</a></li> -->
-					<li><a data-toggle="modal" data-target="#modal_theme_primary">Pendataan Dampak Covid-19</a></li>
+					<!-- <li><a data-toggle="modal" data-target="#modal_theme_primary">Pendataan Dampak Covid-19</a></li> -->
 					<li><a data-toggle="modal" data-target="#modal_theme_primary">Lapor Pemudik</a></li>
 					<li><a href="{{url('/info-grafik')}}">Infografis</a></li>
 				</ul>
 			</div>
 		</div>
 		<!-- /second navbar -->
-
 	</div>
 	<!-- Content area -->
-	<div style="margin-top: -20px;">
-		<div class="panel-flat bg-slate">
-			<div class="panel-body text-center" style="background-color:#073c64">
-				<h1 style="font-family:sans-serif;font-size:30px">KALIREJO SIAGA COVID-19</h1>
-				<h3>Jangan panik! Mari bersama lawan COVID-19. Hubungi layanan Yogyakarta Tanggap COVID-19.
-				</h3>
-				<div class="col-md-12 row" style="margin-top:20px">
-					<div class="col-md-3">
-						<a href="{{url('skrining-mandiri')}}" type="button" class="btn btn-lg btn-block btn-flat bg-slate-400 border-default">Skrining Mandiri <i class="icon-circle-right2 position-right"></i></a>
-						<!-- <button type="button" class="btn btn-lg btn-block btn-flat bg-slate-400 border-default"
-							data-toggle="modal" data-target="#modal_theme_primary">Skrining Mandiri <i
-								class="icon-circle-right2 position-right"></i></i></button> -->
+	<div style="margin-top:-20px">
+		<div class="page-container bg-slate" style="">
+			<!-- Page content -->
+			<div class="page-content">
+				<!-- Main content -->
+				<div class="content-text-wrapper" >
+					<!-- Content area -->
+					<div class="content-center text-center">
+						<div class="col-md-12 row logo-container" style="">
+							<a class="navbar-brand" href="{{url('/')}}">
+							<img class="logo" src="{{asset('images/ugm-putih.png')}}" alt="logo">
+							</a>
+							<a class="navbar-brand" href="{{url('/')}}">
+							<img class="logo" src="{{asset('images/dpkm.png')}}" alt="logo">
+							</a>
+							<a class="navbar-brand" href="{{url('/')}}">
+							<img class="logo" src="{{asset('images/kkn-kokap.png')}}" alt="logo">
+							</a>
+						</div>
+						<h1 style="font-family:sans-serif;font-size:45px">KALIREJO KOKAP SIAGA COVID-19</h1>
+						<h3>Jangan panik! Mari bersama lawan COVID-19.</h3>
+						<a href=""><h6><i class="icon-instagram"></i> @kknkokap2020</h6></a>
+						<a href="http://kalirejo-kulonprogo.desa.id/index.php/first"><h6><i class="icon-chrome"></i> http://kalirejo-kulonprogo.desa.id</h6></a>
+						<div class="col-md-12 row" style="margin-top:20px">
+							<div class="col-md-4">
+								<a href="{{url('skrining-mandiri')}}" type="button" class="btn btn-lg btn-block btn-flat bg-slate-400 border-default">Skrining Mandiri <i class="icon-circle-right2 position-right"></i></a>
+							</div>
+							<div class="col-md-4">
+								<button type="button" class="btn btn-lg btn-block btn-flat bg-slate-400 border-default" style="font-size:15px%" data-toggle="modal" data-target="#modal_theme_primary">Lapor Pemudik <i class="icon-circle-right2 position-right"></i></i></button>
+							</div>
+							<div class="col-md-4">
+								<a href="{{url('info-grafik')}}" type="button" style="font-size:15px" class="btn btn-lg btn-block btn-flat bg-slate-400 border-default">Infografis Covid-19 <i class="icon-circle-right2 position-right"></i></a>
+							</div>
+						</div>
+						
 					</div>
-					<!-- <div class="col-md-3"> -->
-						<!-- <button type="submit" class="btn btn-lg btn-block btn-flat bg-slate-400 border-default">Skrining Dampak Ekonomi <i class="icon-circle-right2 position-right"></i></button> -->
-						<!-- <button type="button" class="btn btn-lg btn-block btn-flat bg-slate-400 border-default"
-							data-toggle="modal" data-target="#modal_theme_primary">Pendataan Dampak Covid-19 <i
-								class="icon-circle-right2 position-right"></i></i></button> -->
-					<!-- </div> -->
-					<div class="col-md-3">
-						<button type="button" class="btn btn-lg btn-block btn-flat bg-slate-400 border-default"
-							data-toggle="modal" data-target="#modal_theme_primary">Lapor Pemudik <i
-								class="icon-circle-right2 position-right"></i></i></button>
-					</div>
-					<div class="col-md-3">
-						<a href="{{url('info-grafik')}}" type="button"
-							class="btn btn-lg btn-block btn-flat bg-slate-400 border-default">Infografis
-							Persebaran Covid-19 <i class="icon-circle-right2 position-right"></i></a>
-					</div>
+					<!-- /content area -->
 				</div>
+				<!-- /main content -->
 			</div>
+			<!-- /page content -->
 		</div>
 	</div>
 	<!-- /content area -->
+	<div class="page-container style-image">
+		<!-- Page content -->
+		<div class="page-content" >
+			<!-- Main content -->
+			<!-- <a class="navbar-brand" href="{{url('/')}}"> -->
+				<div class="image-container">
+					<img class="image-container-pelayanan" src="{{asset('images/alur-pelayanan.png')}}">
+				</div>
+							<!-- </a> -->
+			<!-- /main content -->
+		</div>
+		<!-- /page content -->
+	</div>
 	<!-- /main content -->
 	<div class="page-container">
 		<!-- Page content -->
@@ -148,12 +160,12 @@
 					<h1 class="text-center" style="font-family:sans-serif;font-size:27px">Galeri Foto dan Video</h1>
 					<input type="hidden" name="hidden_page_gambar" id="hidden_page_gambar" value="1" />
 					<div class="row" id="container-gambar">
-					@include('warga.list-gambar')
+						@include('warga.list-gambar')
 					</div>
 					<hr>
 					<input type="hidden" name="hidden_page_video" id="hidden_page_video" value="1" />
 					<div class="row" id="container-video">
-					@include('warga.list-video')
+						@include('warga.list-video')
 					</div>
 				</div>
 				<!-- /content area -->
@@ -198,8 +210,8 @@
 										</div>
 										<div class="text-center">
 											<!-- <img src="{{asset('images/covid.jfif')}}" alt="logo" style="width:50%"> -->
-											<img src="{{asset('images/logo.png')}}" alt="logo" style="width:50%">
-											<h5 class="content-group">BEDOYO SIAGA COVID-19 <small
+											<img src="{{asset('images/kkn-kokap.png')}}" alt="logo" style="width:50%">
+											<h5 class="content-group">KALIREJO SIAGA COVID-19 <small
 													class="display-block">Masukkan nomor handphone anda.</small></h5>
 										</div>
 										<div class="form-group has-feedback has-feedback-left">
@@ -221,7 +233,7 @@
 													class="icon-circle-right2 position-right"></i></button>
 										</div>
 										<div class="text-center">
-											<h5 class="content-group"><b style="color:#073c64">KKN-PPM UGM 2020 - UNIT BEDOYO</b></h5>
+											<h5 class="content-group"><b style="color:#073c64">KKN-PPM UGM 2020</b></h5>
 											<h5 class="content-group"></h5>
 										</div>
 									</div>

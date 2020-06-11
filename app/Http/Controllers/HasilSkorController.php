@@ -50,9 +50,9 @@ class HasilSkorController extends Controller
     {
         $this->validate(request(),
         [
-            'hasil' => 'required',
-            'nilai_batas_bawah' => 'required|lt:nilai_batas_atas',
-            'nilai_batas_atas' => 'required|gt:nilai_batas_bawah'
+            'hasil' => 'required'
+            // 'nilai_batas_bawah' => 'required|lt:nilai_batas_atas',
+            // 'nilai_batas_atas' => 'required|gt:nilai_batas_bawah'
         ]
         );
 
@@ -102,9 +102,9 @@ class HasilSkorController extends Controller
     {
         $this->validate(request(),
         [
-            'hasil' => 'required',
-            'nilai_batas_bawah' => 'required|lt:nilai_batas_atas',
-            'nilai_batas_atas' => 'required|gt:nilai_batas_bawah'
+            'hasil' => 'required'
+            // 'nilai_batas_bawah' => 'required|lt:nilai_batas_atas',
+            // 'nilai_batas_atas' => 'required|gt:nilai_batas_bawah'
         ]
         );
 
