@@ -91,8 +91,8 @@
 		<!-- /second navbar -->
 	</div>
 	<!-- Content area -->
-	<div style="margin-top:-20px">
-		<div class="page-container bg-slate" style="">
+	<div class= "container-top">
+		<div class="page-container bg-slate content-style" style="">
 			<!-- Page content -->
 			<div class="page-content">
 				<!-- Main content -->
@@ -134,24 +134,17 @@
 			<!-- /page content -->
 		</div>
 	</div>
-	<!-- /content area -->
-	<div class="page-container style-image">
+	<!-- /main content -->
+	<div class="page-container video-content">
 		<!-- Page content -->
-		<div class="page-content" >
+		<div class="page-content style-image" >
 			<!-- Main content -->
-			<!-- <a class="navbar-brand" href="{{url('/')}}"> -->
 				<div class="image-container">
 					<img class="image-container-pelayanan" src="{{asset('images/alur-pelayanan.png')}}">
 				</div>
-							<!-- </a> -->
 			<!-- /main content -->
 		</div>
-		<!-- /page content -->
-	</div>
-	<!-- /main content -->
-	<div class="page-container">
-		<!-- Page content -->
-		<div class="page-content">
+		<div class="page-content ">
 			<!-- Main content -->
 			<div class="content-wrapper">
 				<!-- Content area -->

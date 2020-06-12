@@ -160,6 +160,10 @@ a:hover {
 
 
 /* BACKGROUND AWAL */
+.container-top{
+    margin-top: -20px;
+}
+
 .content-center{
     position: absolute;
     top: 40%;
@@ -268,17 +272,35 @@ a:hover {
 @media screen and (max-width: 480px){
 
     .logo-container{
-        margin-left:5%; margin-bottom:60px; margin-top:200px;
+        align-items: center;
+        margin-bottom:60px; 
+        margin-top:200px;
     }
 
+    .container-top{
+        margin-top: -20px;
+        overflow: none;
+    }
+
+    /* .content-style{
+        max-width: 100px;
+        
+    } */
+
     .navbar-brand .logo {
-        height: 70px;
+        height: 60px;
         align-items: center;
     }
 
     .style-image{
-        margin-top: 50px;
+        margin-top: 0px;
+        max-height: 100%;
     }
+
+    .video-content{
+        margin-top: 0px;
+    }
+
     .navbar-hidden{
         display: none;
     }
