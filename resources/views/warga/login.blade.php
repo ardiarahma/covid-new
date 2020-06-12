@@ -91,38 +91,55 @@
 		<!-- /second navbar -->
 	</div>
 	<!-- Content area -->
-	<div class= "container-top">
+	<div class= "container-top bg-slate">
 		<div class="page-container bg-slate content-style" style="">
 			<!-- Page content -->
 			<div class="page-content">
 				<!-- Main content -->
 				<div class="content-text-wrapper" >
 					<!-- Content area -->
-					<div class="content-center text-center">
-						<div class="col-md-12 row logo-container" style="">
-							<a class="navbar-brand" href="{{url('/')}}">
-							<img class="logo" src="{{asset('images/ugm-putih.png')}}" alt="logo">
-							</a>
-							<a class="navbar-brand" href="{{url('/')}}">
-							<img class="logo" src="{{asset('images/dpkm.png')}}" alt="logo">
-							</a>
-							<a class="navbar-brand" href="{{url('/')}}">
-							<img class="logo" src="{{asset('images/kkn-kokap.png')}}" alt="logo">
-							</a>
+					<div class=" text-center">
+						<div class="col-md-12 logo-container">
+							<div class="logo-style">
+								<a class="navbar-brand" href="{{url('/')}}">
+								<img class="logo" src="{{asset('images/ugm-putih.png')}}" alt="logo">
+								</a>
+								<a class="navbar-brand" href="{{url('/')}}">
+								<img class="logo" src="{{asset('images/dpkm.png')}}" alt="logo">
+								</a>
+								<a class="navbar-brand" href="{{url('/')}}">
+								<img class="logo" src="{{asset('images/kkn-kokap.png')}}" alt="logo">
+								</a>
+							</div>
 						</div>
-						<h1 style="font-family:sans-serif;font-size:45px">KALIREJO KOKAP SIAGA COVID-19</h1>
-						<h3>Jangan panik! Mari bersama lawan COVID-19.</h3>
-						<a href="https://www.instagram.com/kknkokap2020/"><h6><i class="icon-instagram"></i> @kknkokap2020</h6></a>
-						<a href="http://kalirejo-kulonprogo.desa.id/index.php/first"><h6><i class="icon-chrome"></i> http://kalirejo-kulonprogo.desa.id</h6></a>
-						<div class="col-md-12 row" style="margin-top:20px">
-							<div class="col-md-4">
+						<div class="col-md-12  title-container">
+							<div class="title-style">
+								<h1 style="font-family:sans-serif;font-size:45px">KALIREJO KOKAP SIAGA COVID-19</h1>
+								<h3>Jangan panik! Mari bersama lawan COVID-19.</h3>
+								<a href="https://www.instagram.com/kknkokap2020/"><h6><i class="icon-instagram"></i> @kknkokap2020</h6></a>
+								<a href="http://kalirejo-kulonprogo.desa.id/index.php/first"><h6><i class="icon-chrome"></i> http://kalirejo-kulonprogo.desa.id</h6></a>
+							</div>
+						</div>
+						<div class="col-md-12 button-small" style="margin-top:20px">
+							<div class="col-md-4 box">
 								<a href="{{url('skrining-mandiri')}}" type="button" class="btn btn-lg btn-block btn-flat bg-slate-400 border-default">Skrining Mandiri <i class="icon-circle-right2 position-right"></i></a>
 							</div>
 							<div class="col-md-4">
-								<button type="button" class="btn btn-lg btn-block btn-flat bg-slate-400 border-default" style="font-size:15px%" data-toggle="modal" data-target="#modal_theme_primary">Lapor Pemudik <i class="icon-circle-right2 position-right"></i></i></button>
+								<button type="button" class="btn btn-lg btn-block btn-flat bg-slate-400 border-default"  data-toggle="modal" data-target="#modal_theme_primary">Lapor Pemudik <i class="icon-circle-right2 position-right"></i></i></button>
 							</div>
 							<div class="col-md-4">
-								<a href="{{url('info-grafik')}}" type="button" style="font-size:15px" class="btn btn-lg btn-block btn-flat bg-slate-400 border-default">Infografis Covid-19 <i class="icon-circle-right2 position-right"></i></a>
+								<a href="{{url('info-grafik')}}" type="button"  class="btn btn-lg btn-block btn-flat bg-slate-400 border-default">Infografis Covid-19 <i class="icon-circle-right2 position-right"></i></a>
+							</div>
+						</div>
+						<div class="col-md-12 " style="margin-top:20px">
+							<div class="col-md-4 box">
+								<a href="{{url('skrining-mandiri')}}" type="button" class="btn btn-lg btn-block btn-flat bg-slate-400 border-default button-big">Skrining Mandiri <i class="icon-circle-right2 position-right"></i></a>
+							</div>
+							<div class="col-md-4">
+								<button type="button" class="btn btn-lg btn-block btn-flat bg-slate-400 border-default button-big"  data-toggle="modal" data-target="#modal_theme_primary">Lapor Pemudik <i class="icon-circle-right2 position-right"></i></i></button>
+							</div>
+							<div class="col-md-4">
+								<a href="{{url('info-grafik')}}" type="button"  class="btn btn-lg btn-block btn-flat bg-slate-400 border-default button-big">Infografis Covid-19 <i class="icon-circle-right2 position-right"></i></a>
 							</div>
 						</div>
 						
