@@ -112,7 +112,7 @@
 						</div>
 						<h1 style="font-family:sans-serif;font-size:45px">KALIREJO KOKAP SIAGA COVID-19</h1>
 						<h3>Jangan panik! Mari bersama lawan COVID-19.</h3>
-						<a href=""><h6><i class="icon-instagram"></i> @kknkokap2020</h6></a>
+						<a href="https://www.instagram.com/kknkokap2020/"><h6><i class="icon-instagram"></i> @kknkokap2020</h6></a>
 						<a href="http://kalirejo-kulonprogo.desa.id/index.php/first"><h6><i class="icon-chrome"></i> http://kalirejo-kulonprogo.desa.id</h6></a>
 						<div class="col-md-12 row" style="margin-top:20px">
 							<div class="col-md-4">

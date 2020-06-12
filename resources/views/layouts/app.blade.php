@@ -4,8 +4,8 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>BEDOYO SIAGA COVID-19 | KKN-PPM UGM 2020</title>
-	<link rel = "icon" href ="{{asset('images/logo.png')}}" type = "image/x-icon"> 
+	<title>KALIREJO SIAGA COVID-19 | KKN-PPM UGM 2020</title>
+	<link rel = "icon" href ="{{asset('images/kkn-kokap.png')}}" type = "image/x-icon"> 
 
 	<!-- Global stylesheets -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
@@ -73,7 +73,7 @@
 	<div class="navbar navbar-inverse" style="background-color:#1a2c43">
 		<div class="navbar-header" style="padding-left:25px">
 			<!-- <a href="#"><img src="{{asset('img/web_transparent_fit_ruko_logo_v2_white.png')}}" alt="" style="height:47px"></a> -->
-			<h5 style="height:20px">BEDOYO SIAGA COVID-19 | KKN-PPM UGM 2020</h5>
+			<h5 style="height:20px">KALIREJO SIAGA COVID-19 | KKN-PPM UGM 2020</h5>
 			<ul class="nav navbar-nav visible-xs-block">
 				<li><a data-toggle="collapse" data-target="#navbar-mobile"><i class="icon-tree5"></i></a></li>
 				<li><a class="sidebar-mobile-main-toggle"><i class="icon-paragraph-justify3"></i></a></li>

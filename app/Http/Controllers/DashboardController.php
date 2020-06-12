@@ -60,7 +60,7 @@ class DashboardController extends Controller
           ->whereNotNull('wargas.perantau_id')
           ->select('wargas.nik','wargas.nama','wargas.no_telepon','padukuhan.name','wargas.rw','wargas.rt','perantau.tanggal_pulang')
           ->get();
-          return Excel::download(new PerserbaranPemudikExport($data), 'Persebaran Pemudik Bedoyo.xlsx');
+          return Excel::download(new PerserbaranPemudikExport($data), 'Persebaran Pemudik Kalirejo.xlsx');
      }
 
      public function show($id) {

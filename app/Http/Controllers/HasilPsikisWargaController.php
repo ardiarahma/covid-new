@@ -81,7 +81,7 @@ class HasilPsikisWargaController extends Controller
            if ($rt) {
              return Excel::download(new SkalaKesehatanExport($data,$rw,$rt), 'Rekap Pendataan Dampak Covid-19 RT '.$rt.'.xlsx');
            }
-           return Excel::download(new SkalaKesehatanExport($data,$rw,$rt), 'Rekap Pendataan Dampak Covid-19 Bedoyo.xlsx');
+           return Excel::download(new SkalaKesehatanExport($data,$rw,$rt), 'Rekap Pendataan Dampak Covid-19 Kalirejo.xlsx');
          }
      }
 }

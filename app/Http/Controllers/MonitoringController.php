@@ -146,7 +146,7 @@ class MonitoringController extends Controller
          if ($rt) {
            return Excel::download(new ScreeningCovdiExport($data,$rw,$rt), 'Rekap Skrining Covid RT '.$rt.'.xlsx');
          }
-         return Excel::download(new ScreeningCovdiExport($data,$rw,$rt), 'Rekap Skrining Covid Bedoyo.xlsx');
+         return Excel::download(new ScreeningCovdiExport($data,$rw,$rt), 'Rekap Skrining Covid Kalirejo.xlsx');
        }
      }
 }

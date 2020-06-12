@@ -7,10 +7,10 @@
             <form class="form-horizontal form-validate-jquery" action="{{route('warga.kirimScrePsi',$warga->id)}}" method="post" enctype="multipart/form-data" files=true>
                 {{ csrf_field() }}
                 <fieldset class="content-group">
-                  <legend class="text-bold">Pendataan Dampak Covid-19 di Desa Bedoyo</legend>
+                  <legend class="text-bold">Pendataan Dampak Covid-19 di Desa Kalirejo</legend>
                   <div class="" id="div-alert">
                     <div class="alert alert-info no-border">
-                      <span class="text-semibold"></span>Berikut ini adalah serangkaian pertanyaan (kuisioner) untuk menentukan seberapa besar dampak Covid-19 terhadap Keseharian, Mental, Pekerjaan, dan Ekonomi Masyarakat Bedoyo; serta mengukur persepsi & reaksi masyarakat terhadap informasi yang diterima terkait Covid-19. Kuisioner ini juga membantu mengetahui kebutuhan masyarakat selama Pandemi. Hasil dari kuisioner ini digunakan untuk menentukan langkah tindakan yang akan dilakukan untuk Desa Bedoyo di kemudian hari, agar tepat sasaran dan efektif. Oleh karena itu, diharapkan untuk masyarakat agar mengisi dengan Jujur dan sebenar-benarnya sesuai dengan situasi masing-masing.
+                      <span class="text-semibold"></span>Berikut ini adalah serangkaian pertanyaan (kuisioner) untuk menentukan seberapa besar dampak Covid-19 terhadap Keseharian, Mental, Pekerjaan, dan Ekonomi Masyarakat Kalirejo; serta mengukur persepsi & reaksi masyarakat terhadap informasi yang diterima terkait Covid-19. Kuisioner ini juga membantu mengetahui kebutuhan masyarakat selama Pandemi. Hasil dari kuisioner ini digunakan untuk menentukan langkah tindakan yang akan dilakukan untuk Desa Kalirejo di kemudian hari, agar tepat sasaran dan efektif. Oleh karena itu, diharapkan untuk masyarakat agar mengisi dengan Jujur dan sebenar-benarnya sesuai dengan situasi masing-masing.
                     </div>
                   </div>
                   <div class="" style="display:none" id="div-table">
