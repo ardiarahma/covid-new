@@ -167,7 +167,7 @@
 				<!-- Content area -->
 				<div class="content">
 					<!-- Image grid -->
-					<h1 class="text-center" style="font-family:sans-serif;font-size:27px; margin-bottom:30px;">Galeri Foto dan Video</h1>
+					<h1 class="text-center" style="font-family:sans-serif; font-size:27px; margin-bottom:30px; ">Galeri Foto dan Video</h1>
 					<input type="hidden" name="hidden_page_gambar" id="hidden_page_gambar" value="1" />
 					<div class="row" id="container-gambar">
 						@include('warga.list-gambar')
