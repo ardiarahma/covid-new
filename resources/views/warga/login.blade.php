@@ -122,8 +122,8 @@
 						</div>
 						<div class="col-md-12 button-small" style="margin-top:20px">
 							<div class="col-md-4 box">
-							<button type="button" class="btn btn-lg btn-block btn-flat bg-primary-600 border-primary-300" data-toggle="modal" data-target="#modal_theme_primary">Deteksi Dini <i class="icon-circle-right2 position-right"></i></i></button>
-								<!-- <a href="{{url('skrining-mandiri')}}" type="button" class="btn btn-lg btn-block btn-flat bg-slate-400 border-default">Skrining Mandiri <i class="icon-circle-right2 position-right"></i></a> -->
+							<!-- <button type="button" class="btn btn-lg btn-block btn-flat bg-primary-600 border-primary-300" data-toggle="modal" data-target="#modal_theme_primary">Deteksi Dini <i class="icon-circle-right2 position-right"></i></i></button> -->
+								<a href="{{url('skrining-mandiri')}}" type="button" class="btn btn-lg btn-block btn-flat bg-slate-400 border-default">Skrining Mandiri <i class="icon-circle-right2 position-right"></i></a>
 							</div>
 							<div class="col-md-4">
 								<button type="button" class="btn btn-lg btn-block btn-flat bg-slate-400 border-default"  data-toggle="modal" data-target="#modal_theme_primary">Lapor Pemudik <i class="icon-circle-right2 position-right"></i></i></button>
