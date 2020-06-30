@@ -122,7 +122,8 @@
 						</div>
 						<div class="col-md-12 button-small" style="margin-top:20px">
 							<div class="col-md-4 box">
-								<a href="{{url('skrining-mandiri')}}" type="button" class="btn btn-lg btn-block btn-flat bg-slate-400 border-default">Skrining Mandiri <i class="icon-circle-right2 position-right"></i></a>
+							<button type="button" class="btn btn-lg btn-block btn-flat bg-primary-600 border-primary-300" data-toggle="modal" data-target="#modal_theme_primary">Deteksi Dini <i class="icon-circle-right2 position-right"></i></i></button>
+								<!-- <a href="{{url('skrining-mandiri')}}" type="button" class="btn btn-lg btn-block btn-flat bg-slate-400 border-default">Skrining Mandiri <i class="icon-circle-right2 position-right"></i></a> -->
 							</div>
 							<div class="col-md-4">
 								<button type="button" class="btn btn-lg btn-block btn-flat bg-slate-400 border-default"  data-toggle="modal" data-target="#modal_theme_primary">Lapor Pemudik <i class="icon-circle-right2 position-right"></i></i></button>
@@ -167,6 +168,76 @@
 				<!-- Content area -->
 				<div class="content">
 					<!-- Image grid -->
+					<h1 class="text-center" style="font-family:sans-serif; font-size:27px; margin-bottom:30px; ">KKN Daring : Bukti Bakti Gadjah Mada Tak Terkekang Pandemi</h1>
+					<h6 class="text-center" style="font-family:sans-serif;">
+					Harapannya, buku ini mampu memberikan jalan terang bagi teman-teman yang ingin mengabdi namun terbatas pandemi. Semoga buku ini menjadi salah satu saksi sejarah bukti pengabdian Gadjah Mada kepada masyarakat, yang tetap mampu mengabdi dalam kondisi apapun. Tulisan dalam buku tersebut tentu masih memiliki banyak kekurangan. Semoga para penerus kami dapat memperbaiki kekurangan tersebut dengan perbaikan dari hasil evaluasi karya ini.
+					</h6>
+					<h6 class="text-center" style="font-family:sans-serif;">
+					Buku "KKN Daring : Bukti Bakti Gadjah Mada Tak Terkekang Pandemi" dapat diunduh di</h6>
+					<a href="http://ugm.id/BukuKKNDaring"><h6 class="text-center" style="font-family:sans-serif; margin-bottom:30px; color:#333; font-weight: bold;">http://ugm.id/BukuKKNDaring</h6></a>
+				
+					<input type="hidden" name="hidden_page_gambar" id="hidden_page_gambar" value="1" />
+					<div class="row" id="container-gambar">
+						<div class="col-lg-4 col-sm-6">
+							<div class="thumbnail">
+								<div class="thumb">
+								<img class="img"  src="{{asset('images/buku.jpg')}}" alt="">
+									<div class="caption-overflow">
+										<!-- <span>
+											<a href='https://drive.google.com/file/d/1pbYKZ1uQvvUqyKd-qmGwKlPIC6L4lY1m/view?usp=sharing' target="_blank" data-popup="lightbox"
+												rel="gallery"
+												class="btn border-white text-white btn-flat btn-icon btn-rounded"><i
+													class="icon-download"></i></a>
+										</span> -->
+									</div>
+								
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-sm-6">
+							<div class="thumbnail">
+								<div class="thumb">
+									<img class="img" src="{{asset('images/bukuu.jpg')}}" alt="">
+									<div class="caption-overflow">
+										<!-- <span>
+											<a href='https://drive.google.com/file/d/1pbYKZ1uQvvUqyKd-qmGwKlPIC6L4lY1m/view?usp=sharing' target="_blank" data-popup="lightbox"
+												rel="gallery"
+												class="btn border-white text-white btn-flat btn-icon btn-rounded"><i
+													class="icon-download"></i></a>
+										</span> -->
+									</div>
+									
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-sm-6">
+							<div class="thumbnail">
+								<div class="thumb">
+									<img class="img" src="{{asset('images/buku3.jpg')}}" alt="">
+									<div class="caption-overflow">
+										<!-- <span>
+											<a href='https://drive.google.com/file/d/1pbYKZ1uQvvUqyKd-qmGwKlPIC6L4lY1m/view?usp=sharing' target="_blank" data-popup="lightbox"
+												rel="gallery"
+												class="btn border-white text-white btn-flat btn-icon btn-rounded"><i
+													class="icon-download"></i></a>
+										</span> -->
+									</div>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /content area -->
+			</div>
+			<!-- /main content -->
+		</div>
+		<div class="page-content ">
+			<!-- Main content -->
+			<div class="content-wrapper">
+				<!-- Content area -->
+				<div class="content">
+					<!-- Image grid -->
 					<h1 class="text-center" style="font-family:sans-serif; font-size:27px; margin-bottom:30px; ">Galeri Foto dan Video</h1>
 					<input type="hidden" name="hidden_page_gambar" id="hidden_page_gambar" value="1" />
 					<div class="row" id="container-gambar">
@@ -187,7 +258,7 @@
 	<!-- /page container -->
 
 	<!-- Footer -->
-	<div class="navbar navbar-default navbar-fixed-bottom">
+	<!-- <div class="navbar navbar-default navbar-fixed-bottom">
 		<ul class="nav navbar-nav no-border visible-xs-block">
 			<li><a class="text-center collapsed" data-toggle="collapse" data-target="#navbar-second"><i class="icon-circle-up2"></i></a></li>
 		</ul>
@@ -197,7 +268,7 @@
 				&copy; 2020 | KKN-PPM UGM KALIREJO KOKAP
 			</div>
 		</div>
-	</div>
+	</div> -->
 
 	<!-- Login modal -->
 	<div id="modal_theme_primary" class="modal fade">
